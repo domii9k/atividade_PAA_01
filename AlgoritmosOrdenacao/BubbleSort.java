@@ -1,4 +1,4 @@
-package algoritmos_ordenacao;
+package AlgoritmosOrdenacao;
 
 /* 
  * Complexidade Pior Caso: O(n²)

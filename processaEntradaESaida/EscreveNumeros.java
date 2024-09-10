@@ -1,4 +1,4 @@
-package processaEntradaESaida;
+package ProcessaEntradaESaida;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
-import gera_numeros_inteiros.GeradorDeNumeros;
+import GeradorNumerosInteiros.GeradorDeNumeros;
 
 public class EscreveNumeros {
 

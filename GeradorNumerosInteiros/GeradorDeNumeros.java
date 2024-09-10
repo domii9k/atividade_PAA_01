@@ -1,7 +1,7 @@
-package gera_numeros_inteiros;
+package GeradorNumerosInteiros;
 
-import algoritmos_ordenacao.QuickSort;
-import algoritmos_ordenacao.QuickSortDecrescente;
+import AlgoritmosOrdenacao.QuickSort;
+import AlgoritmosOrdenacao.QuickSortDecrescente;
 
 public class GeradorDeNumeros {
 
