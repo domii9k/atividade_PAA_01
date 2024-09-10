@@ -1,5 +1,5 @@
 
-package algoritmos_ordenacao;
+package AlgoritmosOrdenacao;
 
 import java.util.Random;
 

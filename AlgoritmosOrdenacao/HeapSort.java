@@ -1,4 +1,4 @@
-package algoritmos_ordenacao;
+package AlgoritmosOrdenacao;
 public class HeapSort {
 
     public static void sort(int[] vetor) {

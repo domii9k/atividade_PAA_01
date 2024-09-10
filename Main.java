@@ -2,8 +2,8 @@ import java.io.*;
 import java.util.*;
 
 
-import algoritmos_ordenacao.*;
-import processaEntradaESaida.EscreveNumeros;
+import AlgoritmosOrdenacao.*;
+import ProcessaEntradaESaida.EscreveNumeros;
 
 public class Main {
     public static void main(String[] args) throws IOException, InterruptedException {
