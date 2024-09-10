@@ -37,22 +37,22 @@ public class Main {
 
             switch (escolha) {
                 case 1:
-                    BubbleSort.bubbleSort(numeros);
+                    BubbleSort.bubbleSort(copiaNumeros);
                     break;
                 case 2:
-                    InsertionSort.insertionSort(numeros);
+                    InsertionSort.insertionSort(copiaNumeros);
                     break;
                 case 3:
-                    SelectionSort.selectionSort(numeros);
+                    SelectionSort.selectionSort(copiaNumeros);
                     break;
                 case 4:
-                    MergeSort.mergeSort(numeros);
+                    MergeSort.mergeSort(copiaNumeros);
                     break;
                 case 5:
-                    HeapSort.sort(numeros);
+                    HeapSort.sort(copiaNumeros);
                     break;
                 case 6:
-                    QuickSort.quickSort(numeros);
+                    QuickSort.quickSort(copiaNumeros);
                     break;
                 default:
                     System.out.println("Opção inválida!");
@@ -60,7 +60,7 @@ public class Main {
             }
 
             long tempoFinal = System.currentTimeMillis();
-            
+
             System.out.println("Teste " + (i + 1) + " concluído!");
             tempoTotal += (tempoFinal - tempoInicial); // Acumula o tempo de execução
         }
