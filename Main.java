@@ -29,6 +29,10 @@ public class Main {
 
         // Repete o processo de ordenação 3 vezes
         for (int i = 0; i < 3; i++) {
+
+            int[] copiaNumeros = Arrays.copyOf(numeros, numeros.length);
+            System.out.println("Realizando teste " + (i + 1) + "...");
+
             long tempoInicial = System.currentTimeMillis();
 
             switch (escolha) {
@@ -56,6 +60,8 @@ public class Main {
             }
 
             long tempoFinal = System.currentTimeMillis();
+            
+            System.out.println("Teste " + (i + 1) + " concluído!");
             tempoTotal += (tempoFinal - tempoInicial); // Acumula o tempo de execução
         }
 
