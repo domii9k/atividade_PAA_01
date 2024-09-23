@@ -1,11 +1,5 @@
 package AlgoritmosOrdenacao;
 
-/* 
- * Complexidade Pior Caso: O(n²)
- * Complexidade Caso Médio: O(n²)
- * Complexidade Melhor Caso: O(n) - lista ja ordenada
- * 
- */
 public class BubbleSort {
 
     /* int[] v = {2,9,6,7,4,1,40}; */

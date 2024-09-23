@@ -33,7 +33,7 @@ public class GeradorDeNumeros {
         auxiliaGeracaoSemRepeticao(vetor, tamanhoVetor);
     }
 
-    // metodos auxiliares
+    // metodo auxiliar sem repeticao
     private static void auxiliaGeracaoSemRepeticao(int[] vetor, int tamanhoVetor) {
         for (int i = 0; i < tamanhoVetor; i++) {
             vetor[i] = i;
@@ -48,6 +48,7 @@ public class GeradorDeNumeros {
         }
     }
 
+    //metodo auxiliar com repeticao
     private static void auxiliaGeracaoComRepeticao(int[] vetor, int tamanhoVetor) {
         for (int i = 0; i < tamanhoVetor; i++) {
            vetor[i] = (int) Math.floor(Math.random()*tamanhoVetor);

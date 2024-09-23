@@ -1,0 +1,9 @@
+> Qual é o melhor algoritmo quando os elementos estão ordenados de forma crescente?
+O Insertion Sort e Bubble Sort se mostraram os melhores algoritmos para listas quase ou totalmente ordenadas. No teste, ambos apresentaram tempos muito baixos (próximos de 0ms ou 1ms).
+
+> Qual é o melhor algoritmo quando os elementos estão ordenados de forma decrescente?
+Neste teste, Quick Sort e Heap Sort se destacaram por terem tempos muito baixos, independentemente do tamanho das listas.
+Bubble Sort e Insertion Sort foram muito lentos com listas decrescentes, chegando a mais de 400 segundos em alguns casos, o que mostra que eles são ineficazes com esse tipo de organização.
+
+> Qual é o algoritmo mais estável em relação ao tempo de processamento?
+O Merge Sort pareceu ser o algoritmo mais estável em relação ao tempo de execução, independentemente da organização dos dados (crescente, decrescente ou aleatório). O Quick Sort teve um ótimo desempenho, mas teve variações de tempo de acordo com a organização das listas.
